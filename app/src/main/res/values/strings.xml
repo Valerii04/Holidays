@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Holidays</string>
+
+    <string-array name="countries">
+        <item>UA - Ukraine</item>
+        <item>US - United States</item>
+        <item>CN - China</item>
+        <item>GB - United Kingdom</item>
+        <item>BR - Brazil</item>
+    </string-array>
+</resources>

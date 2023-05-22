@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!-- quote_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/videoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/holidayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:text="New Year" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="description of a holiday" />
+
+</LinearLayout>
